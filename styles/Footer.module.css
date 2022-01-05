@@ -1,0 +1,129 @@
+.footer_top {
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  background: linear-gradient(to right, #395c4d, #132d1f);
+}
+
+.footer_top_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  grid-column: 2;
+  margin-top: 30px;
+  /* border: 1px solid green; */
+}
+.footer_top_address {
+  grid-column: 2/4;
+  grid-row: 2;
+  font-size: 30px;
+  color: #ffff;
+  margin-top: 10px;
+}
+.footer_top_text {
+  grid-column: 2/6;
+  grid-row: 3;
+  font-size: 18px;
+  color: #ffff;
+}
+.footer_top_map {
+  grid-column: 2/10;
+  grid-row: 4/10;
+  width: "800";
+  height: "350";
+}
+/*--- footer-top end---*/
+/*--- footer-bot start---*/
+.footer_bot {
+  background: rgba(11, 96, 55, 0.1);
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 5% 5% 10% 10% 15% 5% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.footer_bot_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2;
+  grid-row: 2/4;
+  background: linear-gradient(180deg, #045937 0%, #5ab63e 100%);
+  border-radius: 10px;
+}
+.footer_bot_logo img {
+  margin-top: 20px;
+}
+.footer_bot_contact {
+  display: flex;
+  align-items: center;
+  margin-left: 58px;
+  font-size: 20px;
+  grid-column: 3/5;
+  grid-row: 2;
+  font-weight: 700;
+}
+.footer_bot_contact_icon {
+  display: flex;
+  align-items: center;
+  grid-column: 3/5;
+  grid-row: 3/4;
+  margin-left: 58px;
+  font-size: 22px;
+}
+
+.fa-facebook-square {
+  color: #253d32;
+  transform: rotate(0deg);
+}
+.fa-instagram-square {
+  color: #253d32;
+  transform: rotate(0deg);
+}
+.fa-twitter-square {
+  color: #253d32;
+  transform: rotate(0deg);
+}
+
+.footer_bot_contact_text {
+  font-size: 20px;
+  grid-column: 2/4;
+  grid-row: 5/8;
+  color: #78847d;
+}
+.footer_bot_contact_social {
+  transform: rotate(0deg);
+  grid-column: 2;
+  grid-row: 8;
+}
+.footer_bot .footer_bot_contact-_social i {
+  transform: rotate(0deg);
+}
+.footer_bot_list {
+  grid-column: 6;
+  grid-row: 3;
+}
+.footer_bot_list_bot {
+  grid-column: 6;
+  grid-row: 5/10;
+  line-height: 34px;
+}
+.footer_bot_product {
+  grid-column: 8;
+  grid-row: 3;
+}
+.footer_bot_product_bot {
+  grid-column: 8;
+  grid-row: 5/10;
+  line-height: 34px;
+}
+.footer_bot_company {
+  grid-column: 10;
+  grid-row: 3;
+}
+.footer_bot_company_bot {
+  grid-column: 10;
+  grid-row: 5/10;
+  line-height: 34px;
+}

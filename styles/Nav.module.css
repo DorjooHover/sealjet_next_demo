@@ -1,0 +1,96 @@
+
+
+#nuur {
+  font-size: 16px;
+  width: 100%;
+  height: 98px;
+  background: linear-gradient(180deg, #035837 0%, #5eba3f 100%);
+  line-height: 98px;
+}
+
+#nuur .logo {
+  float: left;
+}
+.logo {
+  width: 126px;
+  height: 66px;
+  margin-top: 16px;
+  margin-left: 120px;
+}
+#nuur ul {
+  float: right;
+}
+#nuur ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.cart_btn {
+  width: 140px;
+  height: 53.45px;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 116px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  margin-right: 80px;
+}
+
+#nuur ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16 px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+}
+#nuur ul li a:hover {
+  color: #000000;
+}
+.checkbtn {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  float: right;
+  display: none;
+  margin-right: 40px;
+}
+#check {
+  display: none;
+}
+.icon .fa-instagram,.fa-facebook-f,.fa-twitter {
+  position: relative;
+  transform: rotate(0deg);
+  color:#fff;
+}
+@media only screen and (max-width: 990px) {
+  .checkbtn {
+    display: block;
+  }
+  .logo {
+    margin-left: 30px;
+  }
+  #nuur ul {
+    width: 100%;
+    height: 150vh;
+    background-color: #53694c;
+    z-index: 2;
+    position: fixed;
+    top: 98px;
+    left: -100%;
+    text-align: center;
+    transition: 0.4s ease;
+  }
+  #nuur ul li {
+    display: block;
+    margin: 60px 0px;
+    line-height: 20px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
