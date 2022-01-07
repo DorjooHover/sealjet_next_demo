@@ -13,6 +13,7 @@ import 'swiper/css/scrollbar';
 
 const HomeSection = () => {
   return (
+      
     <div id="home">
         <Swiper className={homeStyles.swiper1}
       // install Swiper modules
@@ -32,7 +33,8 @@ const HomeSection = () => {
       <style jsx>{`
         .swiper {
             width:600px;
-            height:300px;
+            height:300px
+            ;
         }
       `}</style>
     </Swiper>
